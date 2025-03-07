@@ -21,5 +21,6 @@ venv/
 # API keys or environment variables
 .env
 
+
 # Streamlit specific
 .streamlit/secrets.toml

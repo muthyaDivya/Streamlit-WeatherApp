@@ -7,7 +7,7 @@ from datetime import datetime
 from matplotlib import pyplot as plt
 import numpy as np
 
-owm = pyowm.OWM('OWM_Api_Key')
+owm = pyowm.OWM('API_KEY')
 mgr = owm.weather_manager()
 
 def plot_bar_chart(days, temp_min, temp_max, unit):
